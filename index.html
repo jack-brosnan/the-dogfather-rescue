@@ -11,7 +11,30 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <nav>NavBar</nav>
+    <!-- Responsive Bootstrap navbar -->
+    <nav class="navbar navbar-expand-md">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">The DogFather Rescue</a>
+            <button class="navbar-toggler me-2" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars" style="color: #000000;"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Rehoming</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     <main>
         <section>Hero Section</section>
         <section>Adoption Information</section>
@@ -24,6 +47,6 @@
 
     <!-- FontAwsome -->
     <script src="https://kit.fontawesome.com/1ef2e57231.js" crossorigin="anonymous"></script>
-    
+
 </body>
 </html>
