@@ -1,4 +1,55 @@
 .hero-container{
     background-color: #3fbaba;
-    height: 93vh;
+    min-height: 93vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#hero-section{
+    height: 100%;
+}
+
+/* Container styling */
+#hero-images {
+    position: relative;
+    height: 500px; 
+    overflow: hidden; 
+}
+
+.staggered-image {
+    position: absolute;
+    width: 250px; 
+    height: 250px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    transition: transform 0.3s ease;
+}
+
+.staggered-image:hover {
+    transform:scale(1.05)
+}
+
+.image1 {
+    top: 50px;
+    left: 500px;
+    animation: float1 6s ease-in-out infinite;
+}
+
+.image2 {
+    top: 10px;
+    left: 200px;
+    animation: float2 5s ease-in-out infinite;
+}
+
+.image3 {
+    top: 220px;
+    left: 20px;
+    animation: float3 7s ease-in-out infinite;
+}
+
+.image4 {
+    top: 250px;
+    left: 300px;
+    animation: float3 7s ease-in-out infinite;
 }
