@@ -1,5 +1,5 @@
 .hero-container{
-    background-color: #3fbaba;
+    background-color: #3185FC;
     min-height: 93vh;
     display: flex;
     align-items: center;
@@ -8,7 +8,24 @@
 
 #hero-section{
     height: 100%;
+    color: #F0F7F4    
 }
+
+/* Hero Section CTA */
+.btn--cta{
+    background-color: #3A4454;
+    color:#ffffff;
+    padding: 15px;
+    border-radius: 50px;
+    font-size: 1.5rem;
+    
+}
+
+.btn--cta:hover{
+    background-color: #4a4f58;
+    color:#ffffff;
+}
+
 
 /* Container styling */
 #hero-images {
