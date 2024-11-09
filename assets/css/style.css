@@ -1,14 +1,33 @@
 .hero-container{
     background-color: #3185FC;
-    min-height: 93vh;
+    min-height: 73vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+#hero-parent-container{
+    border-top-left-radius: 25%;
+    border-top-right-radius: 0%;
+}
+
 #hero-section{
     height: 100%;
-    color: #F0F7F4    
+    color: #F0F7F4;
+    
+}
+
+/* Hero section edge design */
+#hero-section-edge{
+    background-color: #3185FC;
+    min-height: 20vh;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 60%;
+}
+
+#hero-tag-line{
+    height: 150px;
+    color: #F0F7F4;
 }
 
 /* Hero Section CTA */
@@ -60,13 +79,13 @@
 }
 
 .image3 {
-    top: 220px;
+    top: 240px;
     left: 20px;
     animation: float3 7s ease-in-out infinite;
 }
 
 .image4 {
     top: 250px;
-    left: 300px;
+    left: 320px;
     animation: float3 7s ease-in-out infinite;
 }
