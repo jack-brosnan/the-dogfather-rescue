@@ -106,3 +106,53 @@ body {
 #v-pills-tabContent {
     box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2); 
 } */
+
+/* Donation Section */
+
+#donation-block {
+    background-color: #F1D302;
+}
+
+.donation-form-container {
+    background-color: #F0F7F4;
+}
+
+/* #donation-form {
+    background-color: #F0F7F4;
+} */
+
+/* Donation Block Type */
+
+/* Default button style */
+.donation-btn {
+    background-color: #cccccc;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Selected button style */
+input[type="radio"]:checked + .donation-btn {
+    background-color: #3185FC;
+    color: white;
+}
+
+input[type="radio"]:not(:checked) + .donation-btn:hover {
+    background-color: #b3b3b3;
+    color: black;
+}
+
+/* Hover effect for selected buttons */
+input[type="radio"]:checked + .donation-btn:hover {
+    background-color: #1974f4; 
+    color: white;
+}
+
+#donate-o:checked + .donation-btn {
+    background-color: #FF5722; 
+    color: white;
+}
+
+#donate-o:checked + .donation-btn:hover {
+    background-color: #e64a19;
+    color: white;
+}
