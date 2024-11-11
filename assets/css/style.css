@@ -156,3 +156,15 @@ input[type="radio"]:checked + .donation-btn:hover {
     background-color: #e64a19;
     color: white;
 }
+
+#footer-container {
+    background-color: #3A4454;
+}
+
+footer {
+    color: #ffffff;
+}
+
+footer li {
+    color: #ffffff;
+}
