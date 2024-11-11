@@ -161,10 +161,14 @@ input[type="radio"]:checked + .donation-btn:hover {
     background-color: #3A4454;
 }
 
-footer {
+footer p {
     color: #ffffff;
 }
 
-footer li {
+footer .nav-link {
+    color: #ffffff;
+}
+
+footer .nav-link:focus {
     color: #ffffff;
 }
